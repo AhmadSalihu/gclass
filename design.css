@@ -1,0 +1,72 @@
+body{
+    background-image: url("benz logo 5.jpg");
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+
+} 
+
+h1{
+    color: brown; 
+    text-align: center 
+} 
+ 
+h2{
+    color: brown;
+    text-align: center;
+} 
+
+h3{
+    color: tomato;
+}
+
+p, ol{
+    color: rgb(251, 251, 255); 
+    padding: 20px; 
+    font-size: larger;  
+}  
+
+a, ul{
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100vw;
+    height: 40px;
+    color: white;
+    background-color: goldenrod
+}
+.navbarContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.logo{
+    flex: 3;
+    padding: 5px;
+    overflow: hidden;
+}
+.menulist{
+ flex: 6;
+}
+.menuitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.form{
+flex: 3;
+padding: 5px;
+}
+.forminput{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 10px;
+}
+
+
